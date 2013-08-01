@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.1.4.0'/>
+ <uml:Activity xmi:uuid='urn:uuid:5e37c55e-b71a-46ae-b8d5-068456671d15'
+   isAbstract='false'
+   isActive='false'
+   isLeaf='false'
+   isReadOnly='false'
+   isReentrant='false'
+   isSingleExecution='false'
+   name='Parse Input String into Commands'
+   visibility='public'>
+  <edge xmi:type='uml:ControlFlow' xmi:uuid='urn:uuid:ac744e4c-820d-46ed-930a-152cfe35a93b'
+    isLeaf='false'
+    name='ControlFlow1'>
+   <source href='urn:uuid:0020d6b3-e5c6-40db-bfae-da7a3c80e0f3'/>
+   <target href='urn:uuid:b3278724-8645-448b-ab24-c8f257e6fa12'/>
+   <guard xmi:type='uml:LiteralString' xmi:uuid='urn:uuid:ce8d77e3-4985-4cb3-9321-c5d3cbacdd60'
+     value='true'
+     visibility='public'/>
+   <weight xmi:type='uml:LiteralString' xmi:uuid='urn:uuid:80714330-d73c-4830-a3e1-b21b07de04ee'
+     value='1'
+     visibility='public'/>
+  </edge>
+  <edge xmi:type='uml:ControlFlow' xmi:uuid='urn:uuid:6acae378-9d6f-4350-ae2b-b2f1786ee1f8'
+    isLeaf='false'
+    name='ControlFlow2'>
+   <source href='urn:uuid:b3278724-8645-448b-ab24-c8f257e6fa12'/>
+   <target href='urn:uuid:c1ffc728-416f-49a8-9a5c-98f2f799b632'/>
+   <guard xmi:type='uml:LiteralString' xmi:uuid='urn:uuid:c2a5be5c-980f-498d-a4ba-d25a260b53cf'
+     value='true'
+     visibility='public'/>
+   <weight xmi:type='uml:LiteralString' xmi:uuid='urn:uuid:0d200ea8-59e5-4baa-8ab4-540768067b0b'
+     value='1'
+     visibility='public'/>
+  </edge>
+  <edge xmi:type='uml:ControlFlow' xmi:uuid='urn:uuid:8bc86fee-518a-4872-837f-9722dbc72146'
+    isLeaf='false'
+    name='ControlFlow3'>
+   <source href='urn:uuid:c1ffc728-416f-49a8-9a5c-98f2f799b632'/>
+   <target href='urn:uuid:244683c1-a1cf-40b3-b2fb-b4180105a845'/>
+   <guard xmi:type='uml:LiteralString' xmi:uuid='urn:uuid:52ea2b5d-e0e1-4e93-b022-da19b5678c21'
+     value='true'
+     visibility='public'/>
+   <weight xmi:type='uml:LiteralString' xmi:uuid='urn:uuid:af64946c-8f08-4462-8b78-033dc506dc6f'
+     value='1'
+     visibility='public'/>
+  </edge>
+  <edge xmi:type='uml:ControlFlow' xmi:uuid='urn:uuid:dafabf5e-0cd6-4de7-b59d-59b16b54d4e0'
+    isLeaf='false'
+    name='ControlFlow4'>
+   <source href='urn:uuid:244683c1-a1cf-40b3-b2fb-b4180105a845'/>
+   <target href='urn:uuid:f8f5ee75-038c-4ccd-a469-cb2d260990f7'/>
+   <guard xmi:type='uml:LiteralString' xmi:uuid='urn:uuid:0b484f9b-471c-4b0b-9f81-7981281361c8'
+     value='true'
+     visibility='public'/>
+   <weight xmi:type='uml:LiteralString' xmi:uuid='urn:uuid:973743d2-f94a-45cb-ba4a-21aab3571dba'
+     value='1'
+     visibility='public'/>
+  </edge>
+  <edge xmi:type='uml:ControlFlow' xmi:uuid='urn:uuid:c526d472-0c5e-454c-bc94-aa0703e09f45'
+    isLeaf='false'
+    name='More Words?'>
+   <source href='urn:uuid:f8f5ee75-038c-4ccd-a469-cb2d260990f7'/>
+   <target href='urn:uuid:fe7cb8cd-137e-4cc1-9253-1a4a03e471fd'/>
+   <guard xmi:type='uml:LiteralString' xmi:uuid='urn:uuid:b81900fb-7892-4b62-b8c4-1e2d3bdcd797'
+     value='true'
+     visibility='public'/>
+   <weight xmi:type='uml:LiteralString' xmi:uuid='urn:uuid:b68fa1fa-0a52-44c0-8407-b6284fb498ff'
+     value='1'
+     visibility='public'/>
+  </edge>
+  <edge xmi:type='uml:ControlFlow' xmi:uuid='urn:uuid:856227c9-b57f-4288-bf62-871a03f03976'
+    isLeaf='false'
+    name='Yes'>
+   <source href='urn:uuid:fe7cb8cd-137e-4cc1-9253-1a4a03e471fd'/>
+   <target href='urn:uuid:d1cd4cda-76fb-4e4d-904f-d871b24d7587'/>
+   <guard xmi:type='uml:LiteralString' xmi:uuid='urn:uuid:a980023d-8944-46ab-a9d4-704f0ba85d34'
+     value='true'
+     visibility='public'/>
+   <weight xmi:type='uml:LiteralString' xmi:uuid='urn:uuid:ab8fdcf9-cb05-4e41-8830-1c0811454977'
+     value='1'
+     visibility='public'/>
+  </edge>
+  <edge xmi:type='uml:ControlFlow' xmi:uuid='urn:uuid:2e9eb445-cc52-4fd1-9ac3-d0ac5510a9b5'
+    isLeaf='false'
+    name='Word Is Preposition?'>
+   <source href='urn:uuid:d1cd4cda-76fb-4e4d-904f-d871b24d7587'/>
+   <target href='urn:uuid:1ec95f6c-4616-48bf-b206-da27e8a4fbd1'/>
+   <guard xmi:type='uml:LiteralString' xmi:uuid='urn:uuid:5bf7a3f4-57eb-4844-9987-b6d5bc35ac99'
+     value='true'
+     visibility='public'/>
+   <weight xmi:type='uml:LiteralString' xmi:uuid='urn:uuid:c473d638-f156-4cec-9267-7bff5640d90e'
+     value='1'
+     visibility='public'/>
+  </edge>
+  <edge xmi:type='uml:ControlFlow' xmi:uuid='urn:uuid:facc74ae-6d15-4d83-852c-a0eb7764c913'
+    isLeaf='false'
+    name='Yes'>
+   <source href='urn:uuid:1ec95f6c-4616-48bf-b206-da27e8a4fbd1'/>
+   <target href='urn:uuid:7df55c55-aac3-4039-86bf-fedc74aef263'/>
+   <guard xmi:type='uml:LiteralString' xmi:uuid='urn:uuid:157da858-87b0-47ba-b0be-3d5ad546ed7f'
+     value='true'
+     visibility='public'/>
+   <weight xmi:type='uml:LiteralString' xmi:uuid='urn:uuid:e5cf906a-6064-4030-aa93-2e6e1f556546'
+     value='1'
+     visibility='public'/>
+  </edge>
+  <edge xmi:type='uml:ControlFlow' xmi:uuid='urn:uuid:1dc5b1bb-a823-4449-9c69-a86dc9097dc2'
+    isLeaf='false'
+    name='No'>
+   <source href='urn:uuid:1ec95f6c-4616-48bf-b206-da27e8a4fbd1'/>
+   <target href='urn:uuid:633e2add-78dd-4ae6-ada0-0c74237bd195'/>
+   <guard xmi:type='uml:LiteralString' xmi:uuid='urn:uuid:65dd7eb7-815b-464c-9191-cc2f03a43eb0'
+     value='true'
+     visibility='public'/>
+   <weight xmi:type='uml:LiteralString' xmi:uuid='urn:uuid:af42baf1-8b7c-407a-af35-569dd5304d96'
+     value='1'
+     visibility='public'/>
+  </edge>
+  <edge xmi:type='uml:ControlFlow' xmi:uuid='urn:uuid:48216c55-67f6-4e91-845b-789f018f81a5'
+    isLeaf='false'
+    name='ControlFlow5'>
+   <source href='urn:uuid:7df55c55-aac3-4039-86bf-fedc74aef263'/>
+   <target href='urn:uuid:f8f5ee75-038c-4ccd-a469-cb2d260990f7'/>
+   <guard xmi:type='uml:LiteralString' xmi:uuid='urn:uuid:d5e5f191-2dd5-4ecb-8cd9-c94be302c579'
+     value='true'
+     visibility='public'/>
+   <weight xmi:type='uml:LiteralString' xmi:uuid='urn:uuid:d74d7353-7205-454f-b8d6-45e6ffdd4ae4'
+     value='1'
+     visibility='public'/>
+  </edge>
+  <edge xmi:type='uml:ControlFlow' xmi:uuid='urn:uuid:0f0f0f5d-e900-4ae6-acbc-6ca77679355e'
+    isLeaf='false'
+    name='Preposition Found Yet?'>
+   <source href='urn:uuid:633e2add-78dd-4ae6-ada0-0c74237bd195'/>
+   <target href='urn:uuid:3f721ada-4ab8-4b66-ae26-b42657c993df'/>
+   <guard xmi:type='uml:LiteralString' xmi:uuid='urn:uuid:b8879d93-720b-4141-8f7b-57819337d7d5'
+     value='true'
+     visibility='public'/>
+   <weight xmi:type='uml:LiteralString' xmi:uuid='urn:uuid:eb2510d7-e18a-4536-99a6-dfc21abd6bca'
+     value='1'
+     visibility='public'/>
+  </edge>
+  <edge xmi:type='uml:ControlFlow' xmi:uuid='urn:uuid:e7ea8b28-5c44-43ce-b527-3f18a6d83b6e'
+    isLeaf='false'
+    name='No'>
+   <source href='urn:uuid:3f721ada-4ab8-4b66-ae26-b42657c993df'/>
+   <target href='urn:uuid:80ee16da-3788-4d2a-a4fc-c57c31744e3b'/>
+   <guard xmi:type='uml:LiteralString' xmi:uuid='urn:uuid:e581553b-19ee-41e5-b236-f18add17d4bb'
+     value='true'
+     visibility='public'/>
+   <weight xmi:type='uml:LiteralString' xmi:uuid='urn:uuid:8f8fa02e-8a6d-4d2b-8eee-82c7c294a690'
+     value='1'
+     visibility='public'/>
+  </edge>
+  <edge xmi:type='uml:ControlFlow' xmi:uuid='urn:uuid:320e201c-bb20-445f-a232-d3d2dcba3d29'
+    isLeaf='false'
+    name='Yes'>
+   <source href='urn:uuid:3f721ada-4ab8-4b66-ae26-b42657c993df'/>
+   <target href='urn:uuid:c01c74d6-b5d7-4ccc-8c53-91bfed5cb371'/>
+   <guard xmi:type='uml:LiteralString' xmi:uuid='urn:uuid:8f392ae0-be04-4d19-b24e-7440104871cf'
+     value='true'
+     visibility='public'/>
+   <weight xmi:type='uml:LiteralString' xmi:uuid='urn:uuid:799ffd98-8016-419a-ab7a-9237933bdb89'
+     value='1'
+     visibility='public'/>
+  </edge>
+  <edge xmi:type='uml:ControlFlow' xmi:uuid='urn:uuid:602c646f-5a1b-4cc5-9d95-2c873cb52d22'
+    isLeaf='false'
+    name='ControlFlow6'>
+   <source href='urn:uuid:80ee16da-3788-4d2a-a4fc-c57c31744e3b'/>
+   <target href='urn:uuid:68a6dab3-6941-4596-bd0f-4beb44e39925'/>
+   <guard xmi:type='uml:LiteralString' xmi:uuid='urn:uuid:81e9d3ff-5b29-4a3b-bf82-78ebac847d9c'
+     value='true'
+     visibility='public'/>
+   <weight xmi:type='uml:LiteralString' xmi:uuid='urn:uuid:33757688-2a4e-41ab-b731-db191d22b580'
+     value='1'
+     visibility='public'/>
+  </edge>
+  <edge xmi:type='uml:ControlFlow' xmi:uuid='urn:uuid:d33f629a-d48e-4080-8cd5-18d1b692abca'
+    isLeaf='false'
+    name='ControlFlow7'>
+   <source href='urn:uuid:c01c74d6-b5d7-4ccc-8c53-91bfed5cb371'/>
+   <target href='urn:uuid:68a6dab3-6941-4596-bd0f-4beb44e39925'/>
+   <guard xmi:type='uml:LiteralString' xmi:uuid='urn:uuid:b112bf9b-7ef5-4cd9-852e-7d60a85cd26f'
+     value='true'
+     visibility='public'/>
+   <weight xmi:type='uml:LiteralString' xmi:uuid='urn:uuid:27c78301-ef82-4cd6-9419-e297e4c29693'
+     value='1'
+     visibility='public'/>
+  </edge>
+  <edge xmi:type='uml:ControlFlow' xmi:uuid='urn:uuid:1f562e53-6fa7-479d-bbdc-a72f8ac221f6'
+    isLeaf='false'
+    name='ControlFlow8'>
+   <source href='urn:uuid:68a6dab3-6941-4596-bd0f-4beb44e39925'/>
+   <target href='urn:uuid:f8f5ee75-038c-4ccd-a469-cb2d260990f7'/>
+   <guard xmi:type='uml:LiteralString' xmi:uuid='urn:uuid:ee8a0c68-2aa8-46d7-8dea-c5e299b5a3e9'
+     value='true'
+     visibility='public'/>
+   <weight xmi:type='uml:LiteralString' xmi:uuid='urn:uuid:cf61899b-e382-465d-8a3b-0c45d90b14d3'
+     value='1'
+     visibility='public'/>
+  </edge>
+  <edge xmi:type='uml:ControlFlow' xmi:uuid='urn:uuid:68c3238e-0d6b-4f33-875c-63e7412ad140'
+    isLeaf='false'
+    name='ControlFlow9'>
+   <source href='urn:uuid:c6488a12-dd3b-4539-b602-c66169a05dc7'/>
+   <target href='urn:uuid:d957eeda-2658-45de-9476-4b5bb03482e2'/>
+   <guard xmi:type='uml:LiteralString' xmi:uuid='urn:uuid:9af7ba56-bbeb-447b-a6d8-060c0c4e6c8f'
+     value='true'
+     visibility='public'/>
+   <weight xmi:type='uml:LiteralString' xmi:uuid='urn:uuid:283cdf1f-8ba3-478d-a111-3844138f742a'
+     value='1'
+     visibility='public'/>
+  </edge>
+  <edge xmi:type='uml:ControlFlow' xmi:uuid='urn:uuid:5f3cca91-287b-4c59-bbee-790841da6c02'
+    isLeaf='false'
+    name='No'>
+   <source href='urn:uuid:fe7cb8cd-137e-4cc1-9253-1a4a03e471fd'/>
+   <target href='urn:uuid:c6488a12-dd3b-4539-b602-c66169a05dc7'/>
+   <guard xmi:type='uml:LiteralString' xmi:uuid='urn:uuid:c707b74c-4007-4da1-8579-2bbc337cc197'
+     value='true'
+     visibility='public'/>
+   <weight xmi:type='uml:LiteralString' xmi:uuid='urn:uuid:eed49662-a3b1-4c09-80f3-33e88c9fa087'
+     value='1'
+     visibility='public'/>
+  </edge>
+  <node xmi:type='uml:InitialNode' xmi:uuid='urn:uuid:0020d6b3-e5c6-40db-bfae-da7a3c80e0f3'
+    isLeaf='false'
+    name='InitialNode1'>
+   <outgoing href='urn:uuid:ac744e4c-820d-46ed-930a-152cfe35a93b'/>
+  </node>
+  <node xmi:type='uml:OpaqueAction' xmi:uuid='urn:uuid:b3278724-8645-448b-ab24-c8f257e6fa12'
+    isLeaf='false'
+    name='Split Input Into Word Array'>
+   <incoming href='urn:uuid:ac744e4c-820d-46ed-930a-152cfe35a93b'/>
+   <outgoing href='urn:uuid:6acae378-9d6f-4350-ae2b-b2f1786ee1f8'/>
+  </node>
+  <node xmi:type='uml:OpaqueAction' xmi:uuid='urn:uuid:c1ffc728-416f-49a8-9a5c-98f2f799b632'
+    isLeaf='false'
+    name='Initialize Output Array'>
+   <incoming href='urn:uuid:6acae378-9d6f-4350-ae2b-b2f1786ee1f8'/>
+   <outgoing href='urn:uuid:8bc86fee-518a-4872-837f-9722dbc72146'/>
+  </node>
+  <node xmi:type='uml:OpaqueAction' xmi:uuid='urn:uuid:244683c1-a1cf-40b3-b2fb-b4180105a845'
+    isLeaf='false'
+    name='Add Word Array[0] To Output Array[0]'>
+   <incoming href='urn:uuid:8bc86fee-518a-4872-837f-9722dbc72146'/>
+   <outgoing href='urn:uuid:dafabf5e-0cd6-4de7-b59d-59b16b54d4e0'/>
+  </node>
+  <node xmi:type='uml:OpaqueAction' xmi:uuid='urn:uuid:f8f5ee75-038c-4ccd-a469-cb2d260990f7'
+    isLeaf='false'
+    name='Check For More Words'>
+   <incoming href='urn:uuid:dafabf5e-0cd6-4de7-b59d-59b16b54d4e0'/>
+   <incoming href='urn:uuid:48216c55-67f6-4e91-845b-789f018f81a5'/>
+   <incoming href='urn:uuid:1f562e53-6fa7-479d-bbdc-a72f8ac221f6'/>
+   <outgoing href='urn:uuid:c526d472-0c5e-454c-bc94-aa0703e09f45'/>
+  </node>
+  <node xmi:type='uml:OpaqueAction' xmi:uuid='urn:uuid:d1cd4cda-76fb-4e4d-904f-d871b24d7587'
+    isLeaf='false'
+    name='Check If Word Is Preposition'>
+   <incoming href='urn:uuid:856227c9-b57f-4288-bf62-871a03f03976'/>
+   <outgoing href='urn:uuid:2e9eb445-cc52-4fd1-9ac3-d0ac5510a9b5'/>
+  </node>
+  <node xmi:type='uml:OpaqueAction' xmi:uuid='urn:uuid:7df55c55-aac3-4039-86bf-fedc74aef263'
+    isLeaf='false'
+    name='Add Preposition To Output Array[2]'>
+   <incoming href='urn:uuid:facc74ae-6d15-4d83-852c-a0eb7764c913'/>
+   <outgoing href='urn:uuid:48216c55-67f6-4e91-845b-789f018f81a5'/>
+  </node>
+  <node xmi:type='uml:OpaqueAction' xmi:uuid='urn:uuid:633e2add-78dd-4ae6-ada0-0c74237bd195'
+    isLeaf='false'
+    name='Check For Preposition'>
+   <incoming href='urn:uuid:1dc5b1bb-a823-4449-9c69-a86dc9097dc2'/>
+   <outgoing href='urn:uuid:0f0f0f5d-e900-4ae6-acbc-6ca77679355e'/>
+  </node>
+  <node xmi:type='uml:DecisionNode' xmi:uuid='urn:uuid:1ec95f6c-4616-48bf-b206-da27e8a4fbd1'
+    isLeaf='false'
+    name='OrNode3'>
+   <incoming href='urn:uuid:2e9eb445-cc52-4fd1-9ac3-d0ac5510a9b5'/>
+   <outgoing href='urn:uuid:facc74ae-6d15-4d83-852c-a0eb7764c913'/>
+   <outgoing href='urn:uuid:1dc5b1bb-a823-4449-9c69-a86dc9097dc2'/>
+  </node>
+  <node xmi:type='uml:OpaqueAction' xmi:uuid='urn:uuid:80ee16da-3788-4d2a-a4fc-c57c31744e3b'
+    isLeaf='false'
+    name='Append Word To Output Array[1]'>
+   <incoming href='urn:uuid:e7ea8b28-5c44-43ce-b527-3f18a6d83b6e'/>
+   <outgoing href='urn:uuid:602c646f-5a1b-4cc5-9d95-2c873cb52d22'/>
+  </node>
+  <node xmi:type='uml:OpaqueAction' xmi:uuid='urn:uuid:c01c74d6-b5d7-4ccc-8c53-91bfed5cb371'
+    isLeaf='false'
+    name='Append Word To Output Array[3]'>
+   <incoming href='urn:uuid:320e201c-bb20-445f-a232-d3d2dcba3d29'/>
+   <outgoing href='urn:uuid:d33f629a-d48e-4080-8cd5-18d1b692abca'/>
+  </node>
+  <node xmi:type='uml:DecisionNode' xmi:uuid='urn:uuid:3f721ada-4ab8-4b66-ae26-b42657c993df'
+    isLeaf='false'
+    name='OrNode4'>
+   <incoming href='urn:uuid:0f0f0f5d-e900-4ae6-acbc-6ca77679355e'/>
+   <outgoing href='urn:uuid:e7ea8b28-5c44-43ce-b527-3f18a6d83b6e'/>
+   <outgoing href='urn:uuid:320e201c-bb20-445f-a232-d3d2dcba3d29'/>
+  </node>
+  <node xmi:type='uml:MergeNode' xmi:uuid='urn:uuid:68a6dab3-6941-4596-bd0f-4beb44e39925'
+    isLeaf='false'
+    name='OrNode2'>
+   <incoming href='urn:uuid:602c646f-5a1b-4cc5-9d95-2c873cb52d22'/>
+   <incoming href='urn:uuid:d33f629a-d48e-4080-8cd5-18d1b692abca'/>
+   <outgoing href='urn:uuid:1f562e53-6fa7-479d-bbdc-a72f8ac221f6'/>
+  </node>
+  <node xmi:type='uml:OpaqueAction' xmi:uuid='urn:uuid:c6488a12-dd3b-4539-b602-c66169a05dc7'
+    isLeaf='false'
+    name='Return Output Array'>
+   <incoming href='urn:uuid:5f3cca91-287b-4c59-bbee-790841da6c02'/>
+   <outgoing href='urn:uuid:68c3238e-0d6b-4f33-875c-63e7412ad140'/>
+  </node>
+  <node xmi:type='uml:ActivityFinalNode' xmi:uuid='urn:uuid:d957eeda-2658-45de-9476-4b5bb03482e2'
+    isLeaf='false'
+    name='ActivityFinalNode1'>
+   <incoming href='urn:uuid:68c3238e-0d6b-4f33-875c-63e7412ad140'/>
+  </node>
+  <node xmi:type='uml:DecisionNode' xmi:uuid='urn:uuid:fe7cb8cd-137e-4cc1-9253-1a4a03e471fd'
+    isLeaf='false'
+    name='OrNode5'>
+   <incoming href='urn:uuid:c526d472-0c5e-454c-bc94-aa0703e09f45'/>
+   <outgoing href='urn:uuid:856227c9-b57f-4288-bf62-871a03f03976'/>
+   <outgoing href='urn:uuid:5f3cca91-287b-4c59-bbee-790841da6c02'/>
+  </node>
+ </uml:Activity>
+</xmi:XMI>

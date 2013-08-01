@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.1.4.0'/>
+ <uml:UseCase xmi:uuid='urn:uuid:40be3118-66a6-4969-94a7-44f73f89de23'
+   isAbstract='false'
+   isLeaf='false'
+   name='Validate Indirect Object'
+   visibility='public'>
+  <subject href='urn:uuid:15aa0ae1-cc63-4829-b43c-9ad703993e56'/>
+  <extend xmi:uuid='urn:uuid:e4154cd6-4e8f-4307-8db9-8d0be687cb7d'>
+   <extendedCase href='urn:uuid:aeb7145a-fb5d-489d-b0ef-4320c6eac236'/>
+   <extensionLocation href='urn:uuid:dc39f002-5358-4032-b01a-6f8a744c6a67'/>
+  </extend>
+  <extend xmi:uuid='urn:uuid:ab3d6a38-3239-4ea0-8509-3a61dfbe0001'>
+   <extendedCase href='urn:uuid:3216e396-8429-480b-aac3-a09e41c20510'/>
+   <extensionLocation href='urn:uuid:3c25dbd9-535c-43e7-bc15-943d27a4270f'/>
+  </extend>
+  <extensionPoint xmi:uuid='urn:uuid:1230f818-bc4e-4032-befe-fae52813ebf9'
+    isLeaf='false'
+    name='DefaultExtensionPoint'/>
+ </uml:UseCase>
+</xmi:XMI>

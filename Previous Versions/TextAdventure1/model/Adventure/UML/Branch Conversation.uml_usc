@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.1.4.0'/>
+ <uml:UseCase xmi:uuid='urn:uuid:d12e6939-62c3-4a6f-824f-333d9ef82660'
+   isAbstract='false'
+   isLeaf='false'
+   name='Branch Conversation'
+   visibility='public'>
+  <subject href='urn:uuid:15aa0ae1-cc63-4829-b43c-9ad703993e56'/>
+  <extend xmi:uuid='urn:uuid:e9a02107-1c50-4df1-8fb9-b88fffb45422'>
+   <extendedCase href='urn:uuid:9f617e3d-e833-4c09-b9db-ed8d43fae8e7'/>
+   <extensionLocation href='urn:uuid:cb31c528-f7ce-49da-8adb-6d07b9d18125'/>
+  </extend>
+  <extensionPoint xmi:uuid='urn:uuid:a937adac-4a6d-4bd8-85d1-ed66e2eb9e51'
+    isLeaf='false'
+    name='DefaultExtensionPoint'/>
+ </uml:UseCase>
+</xmi:XMI>

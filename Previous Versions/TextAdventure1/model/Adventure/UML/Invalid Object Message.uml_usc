@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.1.4.0'/>
+ <uml:UseCase xmi:uuid='urn:uuid:aeb7145a-fb5d-489d-b0ef-4320c6eac236'
+   isAbstract='false'
+   isLeaf='false'
+   name='Invalid Object Message'
+   visibility='public'>
+  <subject href='urn:uuid:15aa0ae1-cc63-4829-b43c-9ad703993e56'/>
+  <extensionPoint xmi:uuid='urn:uuid:dc39f002-5358-4032-b01a-6f8a744c6a67'
+    isLeaf='false'
+    name='DefaultExtensionPoint'/>
+  <include xmi:uuid='urn:uuid:09d49e3f-0a8a-4b82-a64b-a36e4ff95ac3'>
+   <addition href='urn:uuid:48fe55cc-e40b-42c7-b8a7-77b56ffa1b64'/>
+  </include>
+ </uml:UseCase>
+</xmi:XMI>
