@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.1.4.0'/>
+ <uml:UseCase xmi:uuid='urn:uuid:3216e396-8429-480b-aac3-a09e41c20510'
+   isAbstract='false'
+   isLeaf='false'
+   name='Perform Command'
+   visibility='public'>
+  <subject href='urn:uuid:15aa0ae1-cc63-4829-b43c-9ad703993e56'/>
+  <extensionPoint xmi:uuid='urn:uuid:3c25dbd9-535c-43e7-bc15-943d27a4270f'
+    isLeaf='false'
+    name='DefaultExtensionPoint'/>
+  <include xmi:uuid='urn:uuid:bc3767f2-8b02-4cd0-a08f-ee52fee6980a'>
+   <addition href='urn:uuid:48fe55cc-e40b-42c7-b8a7-77b56ffa1b64'/>
+  </include>
+ </uml:UseCase>
+</xmi:XMI>

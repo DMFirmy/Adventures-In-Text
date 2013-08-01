@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.1.4.0'/>
+ <uml:UseCase xmi:uuid='urn:uuid:0b8dc485-bac8-47b1-bb9b-7229524af5b0'
+   isAbstract='false'
+   isLeaf='false'
+   name='Perform Action'
+   visibility='public'>
+  <subject href='urn:uuid:15aa0ae1-cc63-4829-b43c-9ad703993e56'/>
+  <extend xmi:uuid='urn:uuid:c366aabf-3b75-4b9d-ada4-14890e0e7848'>
+   <extendedCase href='urn:uuid:d12e6939-62c3-4a6f-824f-333d9ef82660'/>
+   <extensionLocation href='urn:uuid:a937adac-4a6d-4bd8-85d1-ed66e2eb9e51'/>
+  </extend>
+  <extensionPoint xmi:uuid='urn:uuid:f11a8609-7314-40d6-916a-95bee7b5e396'
+    isLeaf='false'
+    name='DefaultExtensionPoint'/>
+  <include xmi:uuid='urn:uuid:6e3ba57b-f058-43d3-a44b-dfa01d63bdbb'>
+   <addition href='urn:uuid:d204f56f-1d9b-4e17-ae7b-899097ac1e7c'/>
+  </include>
+ </uml:UseCase>
+</xmi:XMI>

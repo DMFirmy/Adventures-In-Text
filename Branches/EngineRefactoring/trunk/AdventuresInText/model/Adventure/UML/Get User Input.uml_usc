@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.1.4.0'/>
+ <uml:UseCase xmi:uuid='urn:uuid:64e88330-0888-47e9-9b5f-c0ed3e74f3b0'
+   isAbstract='false'
+   isLeaf='false'
+   name='Get User Input'
+   visibility='public'>
+  <subject href='urn:uuid:15aa0ae1-cc63-4829-b43c-9ad703993e56'/>
+  <extend xmi:uuid='urn:uuid:f98889f5-d9a1-4b27-86ea-5e53c265ec57'>
+   <extendedCase href='urn:uuid:f8d562bb-20bf-4ab0-a271-58a9b6525d62'/>
+   <extensionLocation href='urn:uuid:53b6f0b3-6972-443b-ab61-db5f402cd004'/>
+  </extend>
+  <extensionPoint xmi:uuid='urn:uuid:1c727452-4781-478a-9e05-b71902a71c6d'
+    isLeaf='false'
+    name='DefaultExtensionPoint'/>
+ </uml:UseCase>
+</xmi:XMI>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.1.4.0'/>
+ <uml:Class xmi:uuid='urn:uuid:15aa0ae1-cc63-4829-b43c-9ad703993e56'
+   isAbstract='false'
+   isActive='false'
+   isLeaf='false'
+   name='Basic Game Play'
+   visibility='public'>
+  <useCase href='urn:uuid:f8d562bb-20bf-4ab0-a271-58a9b6525d62'/>
+  <useCase href='urn:uuid:d7ce8535-8d08-4350-8e7e-55e21f53805c'/>
+  <useCase href='urn:uuid:0b8dc485-bac8-47b1-bb9b-7229524af5b0'/>
+  <useCase href='urn:uuid:d81089f0-a51d-4cb9-926f-9d066a45caa4'/>
+  <useCase href='urn:uuid:48fe55cc-e40b-42c7-b8a7-77b56ffa1b64'/>
+  <useCase href='urn:uuid:c7d67bd2-d6af-4b80-b209-42ab365ea26b'/>
+  <useCase href='urn:uuid:d7b4ba91-f123-4212-8573-f9305c2d896a'/>
+  <useCase href='urn:uuid:d204f56f-1d9b-4e17-ae7b-899097ac1e7c'/>
+  <useCase href='urn:uuid:77f48ab7-5a05-4aa4-8aec-514a8f72d2f4'/>
+  <useCase href='urn:uuid:17c8859d-4dd4-44e8-9a03-f67186ddcd66'/>
+  <useCase href='urn:uuid:40be3118-66a6-4969-94a7-44f73f89de23'/>
+  <useCase href='urn:uuid:aeb7145a-fb5d-489d-b0ef-4320c6eac236'/>
+  <useCase href='urn:uuid:3216e396-8429-480b-aac3-a09e41c20510'/>
+  <useCase href='urn:uuid:64e88330-0888-47e9-9b5f-c0ed3e74f3b0'/>
+  <useCase href='urn:uuid:c04b79e7-37bc-4c0e-b419-49e0cc96a368'/>
+  <useCase href='urn:uuid:9f617e3d-e833-4c09-b9db-ed8d43fae8e7'/>
+  <useCase href='urn:uuid:d12e6939-62c3-4a6f-824f-333d9ef82660'/>
+  <ownedComment xmi:uuid='urn:uuid:34fae26d-dd25-489b-a791-6357bb2c159b'
+    body='uml_uc:Subject'/>
+ </uml:Class>
+</xmi:XMI>

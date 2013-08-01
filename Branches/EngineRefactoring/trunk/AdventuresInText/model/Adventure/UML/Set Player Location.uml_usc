@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.1.4.0'/>
+ <uml:UseCase xmi:uuid='urn:uuid:d7b4ba91-f123-4212-8573-f9305c2d896a'
+   isAbstract='false'
+   isLeaf='false'
+   name='Set Player Location'
+   visibility='public'>
+  <subject href='urn:uuid:15aa0ae1-cc63-4829-b43c-9ad703993e56'/>
+  <extensionPoint xmi:uuid='urn:uuid:166d33dd-f0f1-4a23-8eca-db4aa498f975'
+    isLeaf='false'
+    name='DefaultExtensionPoint'/>
+  <include xmi:uuid='urn:uuid:fdf8e7ca-b5a2-4400-b8ec-98bb8c7f6ec2'>
+   <addition href='urn:uuid:48fe55cc-e40b-42c7-b8a7-77b56ffa1b64'/>
+  </include>
+ </uml:UseCase>
+</xmi:XMI>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.1.4.0'/>
+ <uml:UseCase xmi:uuid='urn:uuid:d7ce8535-8d08-4350-8e7e-55e21f53805c'
+   isAbstract='false'
+   isLeaf='false'
+   name='Move Player'
+   visibility='public'>
+  <subject href='urn:uuid:15aa0ae1-cc63-4829-b43c-9ad703993e56'/>
+  <extensionPoint xmi:uuid='urn:uuid:d0348f78-5e03-4454-a374-0570db4690b6'
+    isLeaf='false'
+    name='DefaultExtensionPoint'/>
+  <include xmi:uuid='urn:uuid:69a24495-8863-42e7-a644-363dd7a7fb64'>
+   <addition href='urn:uuid:c7d67bd2-d6af-4b80-b209-42ab365ea26b'/>
+  </include>
+ </uml:UseCase>
+</xmi:XMI>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.1.4.0'/>
+ <uml:UseCase xmi:uuid='urn:uuid:c04b79e7-37bc-4c0e-b419-49e0cc96a368'
+   isAbstract='false'
+   isLeaf='false'
+   name='End Game'
+   visibility='public'>
+  <subject href='urn:uuid:15aa0ae1-cc63-4829-b43c-9ad703993e56'/>
+  <extensionPoint xmi:uuid='urn:uuid:fb4534dc-b91a-41cd-8065-039f104990d2'
+    isLeaf='false'
+    name='DefaultExtensionPoint'/>
+ </uml:UseCase>
+</xmi:XMI>

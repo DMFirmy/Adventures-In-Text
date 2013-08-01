@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.1.4.0'/>
+ <uml:UseCase xmi:uuid='urn:uuid:f8d562bb-20bf-4ab0-a271-58a9b6525d62'
+   isAbstract='false'
+   isLeaf='false'
+   name='Process User Input'
+   visibility='public'>
+  <subject href='urn:uuid:15aa0ae1-cc63-4829-b43c-9ad703993e56'/>
+  <extend xmi:uuid='urn:uuid:0ddcb9db-9903-4c82-8628-8202ba6276f7'>
+   <extendedCase href='urn:uuid:d7ce8535-8d08-4350-8e7e-55e21f53805c'/>
+   <extensionLocation href='urn:uuid:d0348f78-5e03-4454-a374-0570db4690b6'/>
+  </extend>
+  <extend xmi:uuid='urn:uuid:013ec05e-3d96-437f-a1a1-bc9c57533d38'>
+   <extendedCase href='urn:uuid:d81089f0-a51d-4cb9-926f-9d066a45caa4'/>
+   <extensionLocation href='urn:uuid:708ae752-baa3-4a88-a8ba-b3796149651b'/>
+  </extend>
+  <extend xmi:uuid='urn:uuid:2be8fd21-7225-48ad-ae5a-4f90e16dcde8'>
+   <extendedCase href='urn:uuid:0b8dc485-bac8-47b1-bb9b-7229524af5b0'/>
+   <extensionLocation href='urn:uuid:f11a8609-7314-40d6-916a-95bee7b5e396'/>
+  </extend>
+  <extend xmi:uuid='urn:uuid:9574cd36-e5d6-4a25-8f6f-1ef2ff1e3378'>
+   <extendedCase href='urn:uuid:c04b79e7-37bc-4c0e-b419-49e0cc96a368'/>
+   <extensionLocation href='urn:uuid:fb4534dc-b91a-41cd-8065-039f104990d2'/>
+  </extend>
+  <extend xmi:uuid='urn:uuid:72fc1bed-fa49-493f-9c79-220a40dba58d'>
+   <extendedCase href='urn:uuid:9f617e3d-e833-4c09-b9db-ed8d43fae8e7'/>
+   <extensionLocation href='urn:uuid:cb31c528-f7ce-49da-8adb-6d07b9d18125'/>
+  </extend>
+  <extensionPoint xmi:uuid='urn:uuid:53b6f0b3-6972-443b-ab61-db5f402cd004'
+    isLeaf='false'
+    name='DefaultExtensionPoint'/>
+ </uml:UseCase>
+</xmi:XMI>

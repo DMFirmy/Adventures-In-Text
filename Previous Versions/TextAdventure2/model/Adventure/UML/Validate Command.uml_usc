@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.1.4.0'/>
+ <uml:UseCase xmi:uuid='urn:uuid:d204f56f-1d9b-4e17-ae7b-899097ac1e7c'
+   isAbstract='false'
+   isLeaf='false'
+   name='Validate Command'
+   visibility='public'>
+  <subject href='urn:uuid:15aa0ae1-cc63-4829-b43c-9ad703993e56'/>
+  <extend xmi:uuid='urn:uuid:f99ccd1a-5497-4c26-9f98-5c35dc9c6bd3'>
+   <extendedCase href='urn:uuid:d81089f0-a51d-4cb9-926f-9d066a45caa4'/>
+   <extensionLocation href='urn:uuid:708ae752-baa3-4a88-a8ba-b3796149651b'/>
+  </extend>
+  <extensionPoint xmi:uuid='urn:uuid:b6b6e99c-e386-4ff3-84ca-e49ba18fd0ae'
+    isLeaf='false'
+    name='DefaultExtensionPoint'/>
+  <include xmi:uuid='urn:uuid:463a7cfd-b415-44ca-a8c3-bac22b6b6682'>
+   <addition href='urn:uuid:77f48ab7-5a05-4aa4-8aec-514a8f72d2f4'/>
+  </include>
+ </uml:UseCase>
+</xmi:XMI>

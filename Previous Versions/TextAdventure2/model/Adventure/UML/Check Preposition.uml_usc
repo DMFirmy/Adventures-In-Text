@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.1.4.0'/>
+ <uml:UseCase xmi:uuid='urn:uuid:17c8859d-4dd4-44e8-9a03-f67186ddcd66'
+   isAbstract='false'
+   isLeaf='false'
+   name='Check Preposition'
+   visibility='public'>
+  <subject href='urn:uuid:15aa0ae1-cc63-4829-b43c-9ad703993e56'/>
+  <extend xmi:uuid='urn:uuid:b3147cb4-b6e2-4050-b202-9fefe7b98dae'>
+   <extendedCase href='urn:uuid:40be3118-66a6-4969-94a7-44f73f89de23'/>
+   <extensionLocation href='urn:uuid:1230f818-bc4e-4032-befe-fae52813ebf9'/>
+  </extend>
+  <extensionPoint xmi:uuid='urn:uuid:98e9a86b-6269-4384-99db-1f57b5f85b4e'
+    isLeaf='false'
+    name='DefaultExtensionPoint'/>
+ </uml:UseCase>
+</xmi:XMI>
